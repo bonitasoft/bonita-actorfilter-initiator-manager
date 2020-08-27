@@ -39,6 +39,7 @@ public class ProcessInitiatorManagerUserFilter extends AbstractUserFilter {
 
     @Override
     public void validateInputParameters() throws ConnectorValidationException {
+        // no params to validate
     }
 
     @Override
