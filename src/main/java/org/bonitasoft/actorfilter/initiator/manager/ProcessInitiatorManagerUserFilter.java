@@ -22,12 +22,10 @@ import org.bonitasoft.engine.identity.UserNotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Collections;
 import java.util.List;
 
-import static java.util.Arrays.asList;
-import static java.util.Collections.*;
 import static java.util.Collections.emptyList;
+import static java.util.Collections.singletonList;
 
 /**
  * @author Baptiste Mesta
