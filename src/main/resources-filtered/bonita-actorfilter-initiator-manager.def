@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+
+    <id>${definition-id}</id> <!-- Id of the definition -->
+    <version>${definition-version}</version> <!-- Version of the definition -->
+
+  	<icon>initiator-manager.png</icon>
+  	<category id="process" icon="process.gif" />
+
+    <!-- Actor filter inputs -->
+	<input name="autoAssign" type="java.lang.Boolean" mandatory="false" defaultValue="true" />
+
+	<page id="config">
+		<widget id="autoAssign" inputName="autoAssign" xsi:type="definition:Checkbox" />
+	</page>
+
+</definition:ConnectorDefinition>
