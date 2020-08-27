@@ -8,7 +8,7 @@
     <name>bonita-actorfilter-initiator-manager</name>
     <packaging>jar</packaging>
 
-    <description>Filter users of an actor based on ...</description>
+    <description>Bonita Actor Filter that filter users of an actor based on the manager of the process initiator</description>
 
     <url>https://www.bonitasoft.com</url>
 
