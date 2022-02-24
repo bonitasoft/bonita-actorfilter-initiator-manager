@@ -28,4 +28,4 @@ jobs:
           gpg_passphrase: ${{ secrets.gpg_passphrase }}
           nexus_username: ${{ secrets.ossrh_username }}
           nexus_password: ${{ secrets.ossrh_password }}
-
+          asset-name: "${{ github.event.repository.name }}-${{ github.event.inputs.version }}.zip"
